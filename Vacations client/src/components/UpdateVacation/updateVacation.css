@@ -1,0 +1,37 @@
+.inputs-div {
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.update-inputs, select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.update-btn:hover { 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.update-btn, .back-btn {
+    background-color: rgb(58,174,202); /* Green */
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
